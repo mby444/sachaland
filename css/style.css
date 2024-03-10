@@ -1,0 +1,35 @@
+/* Navbar */
+.a-email,
+.a-phone {
+    color: #FFFFFF;
+}
+.h2-logo-title {
+    display: flex;
+    align-items: center;
+}
+.main-logo {
+    width: 40px;
+    height: 40px;
+}
+.main-title {
+    font-size: 16px;
+    padding-left: 10px;
+}
+/* End Navbar */
+/* Top Section */
+.top-section {
+    background-image: url("../images/sacha1280x853/3.jpeg") !important;
+}
+/* End Top Section */
+/* About Us */
+.sacha-image-about-us {
+    height: 100%;
+    width: auto;
+}
+/* End About Us */
+/* Product */
+.arrow-slider {
+    color: aliceblue;
+    font-weight: bold;
+}
+/* End Product */

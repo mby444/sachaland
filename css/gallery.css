@@ -1,0 +1,23 @@
+/* Navbar */
+.a-email,
+.a-phone {
+    color: #FFFFFF;
+}
+.h2-logo-title {
+    display: flex;
+    align-items: center;
+}
+.main-logo {
+    width: 40px;
+    height: 40px;
+}
+.main-title {
+    font-size: 16px;
+    padding-left: 10px;
+}
+/* End Navbar */
+/* Top Section */
+.top-section {
+    background-image: url("../images/sacha1280x854/2.png") !important;
+}
+/* End Top Section */
