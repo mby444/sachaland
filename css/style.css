@@ -21,6 +21,20 @@
     background-image: url("../images/sacha1280x853/3.jpeg") !important;
 }
 /* End Top Section */
+/* Section 2 */
+.section-2 .container-1 {
+    display: flex;
+    flex-direction: column !important;
+}
+.about-us-container {
+    padding-bottom: 4rem;
+}
+
+.why-choose-us-container {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+/* End Section 2 */
 /* About Us */
 .sacha-image-about-us {
     height: 100%;
@@ -33,3 +47,23 @@
     font-weight: bold;
 }
 /* End Product */
+
+@media screen and (min-width: 1025px) {
+    .about-us-container,
+    .why-choose-us-container {
+        display: flex;
+    }
+    .about-us-container {
+        padding-bottom: 0;
+    }
+    .why-choose-us-container {
+        flex-direction: row !important;
+    }
+    .about-us-image-container > div {
+        margin: 0 0 0 15px !important;
+    }
+    .about-us-text-container,
+    .why-choose-us-text-container {
+        padding: 0 25px 0 25px !important;
+    }
+}

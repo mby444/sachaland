@@ -21,3 +21,11 @@
     background-image: url("../images/sacha1280x854/1.png") !important;
 }
 /* End Top Section */
+/* Contact Section */
+.socmed-fixed-container {
+    position: fixed !important;
+    bottom: 40px;
+    left: 0;
+    z-index: 1;
+}
+/* End Contact Section */
