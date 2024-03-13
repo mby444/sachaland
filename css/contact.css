@@ -1,3 +1,23 @@
+:root {
+    --sciesixx-bg-color-1: #a4bad6;
+    --sciesixx-bg-color-2: #e8eef5;
+    --sciesixx-bg-color-3: #dde8f7;
+    --sciesixx-bg-dropdown: #F4FAFF;
+    --sciesixx-color-1: #143a6a;
+    --sciesixx-color-2: #011D31;
+    --sciesixx-color-3: #7798c1;
+    --sciesixx-color-4: #e8eef5;
+    --sciesixx-color-gradient-black-1: rgba(0, 0, 0, 0.1);
+    --sciesixx-btn-color-1: #3677b0;
+    --sciesixx-btn-color-2: #3c84c4;
+    --sciesixx-btn-color-3: #46406c;
+    --sciesixx-link-color-1: #19a6f3;
+    --sciesixx-link-color-2: #0767a2;
+    --sciesixx-bold-1: 300;
+    --sciesixx-bold-2: 400;
+    --sciesixx-bold-3: 600;
+    --sciesixx-bold-4: 900;
+}
 /* Navbar */
 .a-email,
 .a-phone {
@@ -27,5 +47,21 @@
     bottom: 40px;
     left: 0;
     z-index: 1;
+}
+.contact-box-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contact-box {
+    max-width: 600px !important;
+    width: 100%;
+}
+.input-container {
+    padding: 0 0 15px 0;
+}
+.contact-btn > button {
+    padding: 8px 20px !important;
+    font-size: 14px !important;
 }
 /* End Contact Section */
